@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: crimson;
+    padding: 20px 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header i {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+}
+
+#count {
+    position: absolute;
+    font-size: 14px;
+    background-color: #fff;
+    color: crimson;
+    padding: 3px 10px;
+    border-radius: 100%;
+    top: 16px;
+}
+
+#Products {
+    margin-top: 4rem;
+}
+
+svg {
+    width: 25%;
+}
+
+.empty-cart {
+    text-align: center;
+}
+
+.img-td {
+    width: 15%;
+}
+
+table img {
+    width: 100%;
+}
+
+.alert_msg {
+    position: fixed;
+    bottom: 20px;
+    border-radius: 5px;
+    right: -50%;
+    transition: .5s;
+    z-index: 11111111;
+    padding: 3px 5px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(30, 144, 30);
+}
+
+.card img {
+    height: 350px;
+}
+
+.alert-msg {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 1111;
+    padding: 3px 5px;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.button-empty a {
+
+    width: 10%;
+    padding: 14px 40px;
+    display: inline;
+    color: #fff;
+    background: linear-gradient(303.99deg, #FF0033 -18.42%, #FF5577 110.45%);
+    border-radius: 4px;
+}
+
+.button-del {
+    position: fixed;
+    right: 15%;
+
+}
+
+.button-del button {
+    outline: none;
+    border: none;
+    padding: 14px 40px;
+
+    color: #fff;
+    background: red;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+.alert-msg2 {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 1111;
+    padding: 3px 5px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#Top {
+    color: #FF0033;
+    text-align: center;
+}
